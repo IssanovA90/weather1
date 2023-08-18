@@ -1,0 +1,20 @@
+.inputStyle{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+input::placeholder{
+    color: red;
+}
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

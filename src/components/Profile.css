@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+div{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+li{
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+}
