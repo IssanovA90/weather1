@@ -1,7 +1,7 @@
 import { createBrowserRouter, createRoutesFromElements, Link, Outlet, Route, RouterProvider, useParams } from "react-router-dom";
-import Home from "./components/Home";
-import Search from "./components/Search";
-import Profile from "./components/Profile";
+import Home from "./components/Home/Home";
+import Search from "./components/Search/Search";
+import Profile from "./components/Profile/Profile";
 
 
 import './App.css'
@@ -13,9 +13,6 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/profile' element={<Profile />} />
   </Route>
 ))
-function ProfilePage() {
-  return 
-}
 function RootLayout() {
   return (
     <div className="main">
